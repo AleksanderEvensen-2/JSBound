@@ -136,8 +136,8 @@ JB.fillRect = function(x, y, width, height){
 
 
 window.onload = function(){
-  ctx = document.getElementById("canvas").getContext("2d");
   JBsetup();
+  ctx = document.getElementById("canvas").getContext("2d");
   sfjhbrfjhv();
 }
 
