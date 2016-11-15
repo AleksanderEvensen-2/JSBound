@@ -138,10 +138,12 @@ JB.fillRect = function(x, y, width, height){
 window.onload = function(){
   ctx = document.getElementById("canvas").getContext("2d");
   JBsetup();
+  sfjhbrfjhv();
 }
 
 
-setInterval(function(){
+
+function sfjhbrfjhv(){
   ctx.clearRect(0,0,JB.Width,JB.Height);
 
 
@@ -153,12 +155,5 @@ setInterval(function(){
   }
 
   JBupdate();
-
-
-
-
-
-
-
-
-},1000/JB.fpsCap);
+  requestAnimationFrame(sfjhbrfjhv);
+}
